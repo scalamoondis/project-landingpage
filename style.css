@@ -5,26 +5,81 @@ img {
     width: 300px;
 }
 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .hcontainer { 
 
     display: flex;
-    background-color:bisque;
-    padding: 16px;
-}
-
-.hcontainer div { 
-    flex: 1;
-    justify-content: right;
-    padding: 5px;
-    border: 5px solid slateblue;
-    height: 48px;
-   
+    background-color: blueviolet;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
     
+
 }
 
- /*.headerlinks {
+.headers {
+
+    font: italic 1.2em "Fira Sans", serif;
+    width: 900px;
     display: flex;
-    justify-content: right;
-    border: 20px;
+    justify-content: space-between;
+   
+
+}
+
+.headerlinks {
+
+    font: italic small-caps bold 16px/2 cursive;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.fmaincontain {
+
+    display: flex;
+    background-color:aquamarine;
+    color: black;
+    padding: 20px;
+}
+
+.ftextcontain {
+
+    display: flex;
+    border: 5px solid #fff;
+    width: 1500px;
+    justify-content: space-evenly;
     
 }
+
+.front-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.fbig-text {
+
+    font-size: x-large;
+
+}
+
+.fbutton {
+
+    background-color:cornflowerblue;
+}
+
+
+
+
+
